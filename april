@@ -1,0 +1,76 @@
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+//
+//                int n1 = 0, n2 = 0, n3 = 0;
+//                int small = 999, large = -999; // taking a random value for 'small' and 'large' variables for convenience in comparing
+//
+//
+//                // Taking inputs using Scanner class
+//
+//                System.out.println("Enter 1st number");
+//                n1 = sc.nextInt();
+//                System.out.println("Enter 2nd number");
+//                n2 = sc.nextInt();
+//                System.out.println("Enter 3rd number");
+//                n3 = sc.nextInt();
+//
+//                //In order to find the largest and the smallest the numbers cannot be same. So I'm eliminating that option.
+//
+//                if (n1 == n2 && n2 == n3 && n3 == n1)
+//
+//                    System.out.println("Error! Numbers are equal");
+//
+//                else {
+//
+//            /*It might happen that two numbers are equal while the third number is different.
+//            In that case I'm assigning an arbitrary value to one of the number(-99).
+//            The purpose of this is to avoid the condition of equality of any two numbers*/
+//
+//                    if (n1 == n2) n1 = -99;
+//                    if (n2 == n3) n2 = -99;
+//                    if (n3 == n1) n3 = -99;
+//
+//                    // *********MAIN CODE**********
+//            /* Considering each number separately and comparing it with 'small' and 'large'
+//            variables which have values assigned by me
+//            The condition of equality or repetition of numbers is eliminated
+//            from the code by the help of the'not equal to' (!=) condition */
+//
+//                    if (n1 != -99) {
+//                        if (n1 > large)
+//                            large = n1;
+//
+//                        if (n1 < small)
+//                            small = n1;
+//                    }
+//
+//                    //In case the number is different than the assumed values,
+//                    // 'large' and 'small' gets
+//                    // changed to n1 and thus n2 is compared with n1. Same for n3.
+//
+//                    if (n2 != -99) {
+//                        if (n2 > large)
+//                            large = n2;
+//
+//                        if (n2 < small)
+//                            small = n2;
+//
+//                    }
+//                    if (n3 != -99) {
+//                        if (n3 > large)
+//                            large = n3;
+//
+//                        if (n3 < small)
+//                            small = n3;
+//
+//                    }
+//
+//                    // Displaying the output
+//                    System.out.println(" Largest number : " + large);
+//                    System.out.println(" Smallest number : " + small);
+//                }
+//            }
+//        }
